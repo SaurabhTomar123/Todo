@@ -1,0 +1,62 @@
+body {
+  background-color: skyblue;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-field {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input-field input[type="text"],
+.input-field input[type="date"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.add-btn {
+  display: block;
+
+  padding: 10px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-item .task {
+  flex: 1;
+  font-size: 16px;
+}
+
+.task-item .date {
+  font-size: 14px;
+  color: #888;
+  margin-left: 10px;
+}
